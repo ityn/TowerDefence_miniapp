@@ -5,8 +5,11 @@ import { TowerType } from '@/types/gameTypes';
  */
 
 export const TOWER_COSTS: Record<TowerType, number> = {
-  [TowerType.CANNON]: 50,
-  [TowerType.ICE]: 75,
+  [TowerType.CANNON]: 100,
+  [TowerType.ICE]: 150,
+  [TowerType.SPLASH]: 200,
+  [TowerType.SNIPER]: 250,
+  [TowerType.POISON]: 180,
 };
 
 export const INITIAL_GAME_STATE = {
@@ -20,6 +23,9 @@ export const INITIAL_GAME_STATE = {
 export const TOWER_COLORS: Record<TowerType, number> = {
   [TowerType.CANNON]: 0xff6d6d,
   [TowerType.ICE]: 0x6dc2ff,
+  [TowerType.SPLASH]: 0xff9900,
+  [TowerType.SNIPER]: 0x00ff00,
+  [TowerType.POISON]: 0x9900ff,
 };
 
 export const UI_STYLES = {

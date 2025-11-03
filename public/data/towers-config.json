@@ -1,0 +1,92 @@
+{
+  "cannon": {
+    "name": "Cannon Tower",
+    "damage": 25,
+    "range": 200,
+    "attackSpeed": 1.0,
+    "cost": 100,
+    "projectile": {
+      "type": "bullet",
+      "speed": 300,
+      "texture": "projectile_bullet"
+    },
+    "upgrades": [
+      {"level": 2, "damage": 40, "range": 220, "cost": 80},
+      {"level": 3, "damage": 60, "range": 240, "cost": 120}
+    ]
+  },
+  "ice": {
+    "name": "Ice Tower",
+    "damage": 10,
+    "range": 180,
+    "attackSpeed": 0.8,
+    "cost": 150,
+    "effects": ["slow"],
+    "slowAmount": 0.4,
+    "slowDuration": 3.0,
+    "projectile": {
+      "type": "instant",
+      "texture": "projectile_ice"
+    },
+    "upgrades": [
+      {"level": 2, "damage": 15, "slowAmount": 0.5, "cost": 100},
+      {"level": 3, "damage": 20, "range": 200, "slowAmount": 0.6, "cost": 150}
+    ]
+  },
+  "splash": {
+    "name": "Rocket Tower",
+    "damage": 40,
+    "range": 220,
+    "attackSpeed": 1.5,
+    "cost": 200,
+    "effects": ["splash"],
+    "splashRadius": 80,
+    "splashDamage": 0.5,
+    "projectile": {
+      "type": "rocket",
+      "speed": 200,
+      "texture": "projectile_rocket"
+    },
+    "upgrades": [
+      {"level": 2, "damage": 60, "splashRadius": 100, "cost": 150},
+      {"level": 3, "damage": 90, "range": 250, "splashRadius": 120, "splashDamage": 0.6, "cost": 200}
+    ]
+  },
+  "sniper": {
+    "name": "Sniper Tower",
+    "damage": 80,
+    "range": 350,
+    "attackSpeed": 2.5,
+    "cost": 250,
+    "projectile": {
+      "type": "laser",
+      "speed": 500,
+      "texture": "projectile_laser"
+    },
+    "upgrades": [
+      {"level": 2, "damage": 120, "cost": 200},
+      {"level": 3, "damage": 180, "range": 400, "attackSpeed": 2.0, "cost": 300}
+    ]
+  },
+  "poison": {
+    "name": "Poison Tower",
+    "damage": 5,
+    "range": 190,
+    "attackSpeed": 1.2,
+    "cost": 180,
+    "effects": ["poison"],
+    "poisonDamage": 8,
+    "poisonDuration": 5.0,
+    "poisonStacks": true,
+    "projectile": {
+      "type": "bullet",
+      "speed": 250,
+      "texture": "projectile_poison"
+    },
+    "upgrades": [
+      {"level": 2, "damage": 8, "poisonDamage": 12, "cost": 120},
+      {"level": 3, "damage": 12, "range": 210, "poisonDamage": 18, "poisonDuration": 7.0, "cost": 180}
+    ]
+  }
+}
+

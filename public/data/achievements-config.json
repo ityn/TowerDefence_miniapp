@@ -1,0 +1,83 @@
+{
+  "first_blood": {
+    "id": "first_blood",
+    "name": "Первая кровь",
+    "description": "Убейте первого врага",
+    "reward": 50,
+    "condition": {
+      "type": "kill_enemies",
+      "value": 1
+    }
+  },
+  "tower_master": {
+    "id": "tower_master",
+    "name": "Мастер башен",
+    "description": "Улучшите любую башню до максимального уровня",
+    "reward": 100,
+    "condition": {
+      "type": "upgrade_tower_to_level",
+      "value": 3
+    }
+  },
+  "perfectionist": {
+    "id": "perfectionist",
+    "name": "Перфекционист",
+    "description": "Завершите карту без потери жизней",
+    "reward": 200,
+    "condition": {
+      "type": "complete_map_no_lives_lost",
+      "value": 1
+    }
+  },
+  "enemy_slayer": {
+    "id": "enemy_slayer",
+    "name": "Убийца врагов",
+    "description": "Убейте 100 врагов",
+    "reward": 100,
+    "condition": {
+      "type": "kill_enemies",
+      "value": 100
+    }
+  },
+  "tower_builder": {
+    "id": "tower_builder",
+    "name": "Строитель",
+    "description": "Постройте 10 башен",
+    "reward": 75,
+    "condition": {
+      "type": "build_tower",
+      "value": 10
+    }
+  },
+  "coin_collector": {
+    "id": "coin_collector",
+    "name": "Коллекционер монет",
+    "description": "Заработайте 1000 монет",
+    "reward": 150,
+    "condition": {
+      "type": "earn_coins",
+      "value": 1000
+    }
+  },
+  "high_scorer": {
+    "id": "high_scorer",
+    "name": "Высокий счет",
+    "description": "Наберите 5000 очков в одной игре",
+    "reward": 200,
+    "condition": {
+      "type": "score_reached",
+      "value": 5000
+    }
+  },
+  "wave_master": {
+    "id": "wave_master",
+    "name": "Мастер волн",
+    "description": "Завершите 10 волн",
+    "reward": 120,
+    "condition": {
+      "type": "complete_wave",
+      "value": 10
+    }
+  }
+}
+

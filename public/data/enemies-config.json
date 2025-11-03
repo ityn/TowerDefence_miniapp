@@ -1,0 +1,31 @@
+{
+  "slow": {
+    "health": 100,
+    "speed": 50,
+    "bounty": 10,
+    "texture": "enemy_slow",
+    "scale": 1.0
+  },
+  "fast": {
+    "health": 50,
+    "speed": 120,
+    "bounty": 15,
+    "texture": "enemy_fast",
+    "scale": 0.8
+  },
+  "tank": {
+    "health": 200,
+    "speed": 40,
+    "bounty": 50,
+    "texture": "enemy_tank",
+    "scale": 1.2
+  },
+  "swarm": {
+    "health": 30,
+    "speed": 150,
+    "bounty": 10,
+    "texture": "enemy_swarm",
+    "scale": 0.6
+  }
+}
+

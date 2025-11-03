@@ -1,0 +1,76 @@
+{
+  "map_forest": [
+    {
+      "waveNumber": 1,
+      "description": "Разведка",
+      "enemies": [
+        {"type": "fast", "count": 8, "spawnDelay": 1.2}
+      ],
+      "reward": 100,
+      "preWaveDelay": 5.0
+    },
+    {
+      "waveNumber": 2,
+      "description": "Первая атака",
+      "enemies": [
+        {"type": "fast", "count": 6, "spawnDelay": 1.0},
+        {"type": "swarm", "count": 12, "spawnDelay": 0.5}
+      ],
+      "reward": 150,
+      "preWaveDelay": 10.0
+    },
+    {
+      "waveNumber": 3,
+      "description": "Тяжелая техника",
+      "enemies": [
+        {"type": "tank", "count": 3, "spawnDelay": 3.0},
+        {"type": "fast", "count": 10, "spawnDelay": 0.8}
+      ],
+      "reward": 200,
+      "preWaveDelay": 15.0
+    },
+    {
+      "waveNumber": 4,
+      "description": "Массовая атака",
+      "enemies": [
+        {"type": "swarm", "count": 20, "spawnDelay": 0.4},
+        {"type": "fast", "count": 15, "spawnDelay": 0.6},
+        {"type": "tank", "count": 5, "spawnDelay": 2.0}
+      ],
+      "reward": 300,
+      "preWaveDelay": 20.0
+    },
+    {
+      "waveNumber": 5,
+      "description": "Финальная волна",
+      "enemies": [
+        {"type": "tank", "count": 8, "spawnDelay": 2.5},
+        {"type": "fast", "count": 20, "spawnDelay": 0.5},
+        {"type": "swarm", "count": 25, "spawnDelay": 0.3}
+      ],
+      "reward": 500,
+      "preWaveDelay": 0.0
+    }
+  ],
+  "map_desert": [
+    {
+      "waveNumber": 1,
+      "description": "Песчаная буря",
+      "enemies": [
+        {"type": "swarm", "count": 10, "spawnDelay": 0.8}
+      ],
+      "reward": 100,
+      "preWaveDelay": 5.0
+    },
+    {
+      "waveNumber": 2,
+      "description": "Быстрый удар",
+      "enemies": [
+        {"type": "fast", "count": 12, "spawnDelay": 0.9}
+      ],
+      "reward": 150,
+      "preWaveDelay": 10.0
+    }
+  ]
+}
+

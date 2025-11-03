@@ -1,0 +1,18 @@
+{
+  "dailyRewards": [
+    { "day": 1, "rewards": [{"type": "coins", "value": 100}], "streakBonus": false },
+    { "day": 2, "rewards": [{"type": "coins", "value": 150}], "streakBonus": false },
+    { "day": 3, "rewards": [{"type": "coins", "value": 200}], "streakBonus": false },
+    { "day": 4, "rewards": [{"type": "coins", "value": 250}], "streakBonus": false },
+    { "day": 5, "rewards": [{"type": "coins", "value": 300}, {"type": "boost", "value": "damage_boost"}], "streakBonus": false },
+    { "day": 6, "rewards": [{"type": "coins", "value": 400}], "streakBonus": false },
+    { "day": 7, "rewards": [{"type": "coins", "value": 500}, {"type": "stars", "value": 10}, {"type": "skin", "value": "skin_weekly"}], "streakBonus": true }
+  ],
+  "seasonDuration": 30,
+  "eventRotation": [
+    {"id": "halloween", "start": "10-25", "end": "11-05", "name": "Halloween Event"},
+    {"id": "christmas", "start": "12-20", "end": "01-05", "name": "Christmas Event"},
+    {"id": "summer", "start": "07-01", "end": "08-31", "name": "Summer Event"}
+  ]
+}
+

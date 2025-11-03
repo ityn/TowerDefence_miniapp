@@ -16,7 +16,8 @@ export interface EnemyConfig {
 export enum EnemyType {
   SLOW = 'slow',
   FAST = 'fast', 
-  TANK = 'tank'
+  TANK = 'tank',
+  SWARM = 'swarm'
 }
 
 // Типы для башен
@@ -32,20 +33,45 @@ export interface TowerConfig {
 
 export enum TowerType {
   CANNON = 'cannon',
-  ICE = 'ice'
+  ICE = 'ice',
+  SPLASH = 'splash',
+  SNIPER = 'sniper',
+  POISON = 'poison'
+}
+
+// Типы для врагов (конфиг из JSON)
+export interface EnemyConfigData {
+  health: number;
+  speed: number;
+  bounty: number;
+  texture: string;
+  scale?: number;
 }
 
 // Типы для волн
 export interface WaveConfig {
   waveNumber: number;
+  description: string;
   enemies: WaveEnemy[];
-  delayBetweenSpawns: number;
+  reward: number;
+  preWaveDelay: number;
 }
 
 export interface WaveEnemy {
-  enemyType: EnemyType;
+  type: string; // EnemyType как строка для JSON
   count: number;
   spawnDelay: number;
+}
+
+// Прогресс волны
+export interface WaveProgress {
+  currentWave: number;
+  totalWaves: number;
+  enemiesSpawned: number;
+  enemiesTotal: number;
+  enemiesAlive: number;
+  timeUntilNextWave: number;
+  isWaveInProgress: boolean;
 }
 
 // Состояние игры

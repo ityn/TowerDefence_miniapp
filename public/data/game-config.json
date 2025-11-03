@@ -1,0 +1,11 @@
+{
+  "initialCoins": 150,
+  "initialLives": 20,
+  "gameSpeedMultipliers": [1.0, 1.5, 2.0],
+  "maxTowersPerMap": 15,
+  "baseEnemyBounty": 10,
+  "waveCompletionBonus": 50,
+  "autoSaveInterval": 60000,
+  "targetFPS": 60
+}
+

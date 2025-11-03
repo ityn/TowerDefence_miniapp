@@ -1,0 +1,23 @@
+{
+  "objectPooling": {
+    "enemies": { "initial": 50, "max": 100 },
+    "projectiles": { "initial": 30, "max": 60 },
+    "particles": { "initial": 100, "max": 200 },
+    "effects": { "initial": 20, "max": 40 }
+  },
+  "memoryManagement": {
+    "autoCleanup": true,
+    "gcInterval": 30000,
+    "textureAtlas": true,
+    "maxCacheSize": 100,
+    "clearUnusedTextures": true
+  },
+  "mobileOptimization": {
+    "maxFPS": 60,
+    "textureCompression": true,
+    "reducedEffects": false,
+    "adaptiveQuality": true,
+    "batterySaver": false
+  },
+  "debugMode": false
+}

@@ -1,0 +1,72 @@
+{
+  "products": {
+    "coin_pack_small": {
+      "id": "coin_pack_small",
+      "name": "Small Coin Pack",
+      "description": "500 coins to get started",
+      "starsPrice": 10,
+      "type": "coins",
+      "value": 500
+    },
+    "coin_pack_medium": {
+      "id": "coin_pack_medium",
+      "name": "Medium Coin Pack",
+      "description": "2000 coins for serious players",
+      "starsPrice": 30,
+      "type": "coins",
+      "value": 2000
+    },
+    "coin_pack_large": {
+      "id": "coin_pack_large",
+      "name": "Large Coin Pack",
+      "description": "5000 coins for champions",
+      "starsPrice": 70,
+      "type": "coins",
+      "value": 5000
+    },
+    "remove_ads": {
+      "id": "remove_ads",
+      "name": "Remove Ads",
+      "description": "Ad-free experience forever",
+      "starsPrice": 100,
+      "type": "remove_ads",
+      "value": true
+    }
+  },
+  "towerSkins": {
+    "golden": {
+      "id": "golden",
+      "name": "Golden Tower",
+      "description": "Shine like gold",
+      "texture": "tower_gold",
+      "starsPrice": 50,
+      "rarity": "rare"
+    },
+    "crystal": {
+      "id": "crystal",
+      "name": "Crystal Tower",
+      "description": "Transparent power",
+      "texture": "tower_crystal",
+      "starsPrice": 100,
+      "rarity": "epic"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Neon Tower",
+      "description": "Electric style",
+      "texture": "tower_neon",
+      "starsPrice": 150,
+      "rarity": "legendary"
+    }
+  },
+  "battlePass": {
+    "currentSeason": "season_1",
+    "premiumPrice": 100,
+    "levels": [
+      { "level": 1, "requiredXP": 0, "freeRewards": [{"type": "coins", "value": 100}], "premiumRewards": [{"type": "coins", "value": 200}] },
+      { "level": 2, "requiredXP": 100, "freeRewards": [{"type": "coins", "value": 150}], "premiumRewards": [{"type": "skin", "value": "skin_epic_1"}] },
+      { "level": 3, "requiredXP": 250, "freeRewards": [{"type": "boost", "value": "damage_boost"}], "premiumRewards": [{"type": "stars", "value": 20}] }
+    ]
+  }
+}
+

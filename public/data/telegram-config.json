@@ -1,0 +1,15 @@
+{
+  "shareMessages": {
+    "help_request": "Помоги мне в Tower Defence! Отправлю тебе бонус 💎",
+    "high_score": "Я только что набрал {score} очков в Tower Defence! Сможешь побить? 🏆",
+    "referral": "Играй в Tower Defence и получай бонусы! Используй мой код: {code}"
+  },
+  "bonuses": {
+    "referral_bonus": 50,
+    "daily_reward": 25,
+    "help_bonus": 10,
+    "first_play": 100
+  },
+  "storageKey": "td_progress"
+}
+

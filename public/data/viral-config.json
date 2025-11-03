@@ -1,0 +1,34 @@
+{
+  "shareSettings": {
+    "inviteBonus": 100,
+    "helpCooldown": 3600,
+    "maxFriendsHelped": 5,
+    "clanSizeLimit": 50,
+    "shareReward": 50
+  },
+  "referralTiers": [
+    { "invites": 1, "reward": 100 },
+    { "invites": 3, "reward": 300 },
+    { "invites": 5, "reward": 500 },
+    { "invites": 10, "reward": 1000 }
+  ],
+  "helpTypes": {
+    "freeze": {
+      "duration": 10,
+      "cooldown": 3600
+    },
+    "damage": {
+      "value": 50,
+      "cooldown": 3600
+    },
+    "coins": {
+      "value": 100,
+      "cooldown": 7200
+    },
+    "shield": {
+      "lives": 3,
+      "cooldown": 3600
+    }
+  }
+}
+
